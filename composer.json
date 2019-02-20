@@ -1,0 +1,13 @@
+{
+  "name" : "Custom currency converter",
+  "author" : "Roman Shevchenko",
+  "require": {
+    "php": "^7.1"
+  },
+  "autoload" : {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": ["functions.php"]
+  }
+}
